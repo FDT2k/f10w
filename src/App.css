@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.f10w {
+  padding:10px;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 80%;
+  height: 70px;
+}
+
+.autocomplete{
+  position:relative;
+  text-align:left;
+  border:1px solid white;
+  padding:3px;
+
+}
+
+.autocomplete li {
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+}
+
+.autocomplete li.selected{
+  background-color: gray;
+}
